@@ -2,7 +2,7 @@ class ApplicationController < Sinatra::Base
   set :default_content_type, "application/json"
   # task :allow_methods, "GET, HEAD, POST, PUT, OPTIONS, DELETE"
   set :allow_origin, "http:/localhost:3000"
-   set :bind, '0.0.0.0'
+  set :bind, '0.0.0.0'
 configure do
   enable :cross_origin
 end
