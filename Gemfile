@@ -54,3 +54,5 @@ end
 gem "faker"
 
 gem "pg"
+
+ruby "2.7.4"
